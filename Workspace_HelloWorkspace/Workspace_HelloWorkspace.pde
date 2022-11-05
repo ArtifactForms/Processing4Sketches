@@ -32,6 +32,7 @@ Workspace workspace;
 
 void setup() {
   fullScreen(P3D);
+  smooth(8);
   mesh = new CubeCreator().create();
   workspace = new Workspace(this);
   workspace.setUiVisible(true);
